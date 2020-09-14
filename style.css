@@ -1,5 +1,6 @@
 body{
     background-color: #0b0c10;
+    font-family: 'Caveat', cursive;
 }
 
 
@@ -15,7 +16,7 @@ body{
 }
 
 .navbar-nav a{
-    font-family: poppins;
+    font-family: 'Caveat', cursive;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
@@ -52,6 +53,7 @@ body{
 
 .up{
     margin-top: 10%;
+    font-size: 25px;
 }
 
 .about{
