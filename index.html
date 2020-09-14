@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="cssanimation.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
 	<link rel="stylesheet" href="style.css">
 
     <title>Digital Monks</title>
@@ -14,9 +15,9 @@
   <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bgcolor">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bgcolor ">
         <div class="container">
-            <a class="navbar-brand" href="#">Digital Monks</a>
+            <a class="navbar-brand"i href="#"><img src="Logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,13 +28,13 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#">About </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#">Contact </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Portfolio</a>
@@ -46,7 +47,7 @@
       <!-- Background Carousel -->
      <div>
        <div class="parallax">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-scrolly-top="blurInBottom" >
         
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -80,16 +81,16 @@
       <!-- body content -->
 
 
-      <div class="container up">
+      <div class="container up" data-scrolly-top="blurInBottom"   data-scrolly-down="fadeInLeft">
           
         <div class="row one">
-          <div class="col-6 ">
+          <div class="col-6  ">
             <img src="5.png">
              </div>
           
           <div class="col-6 ">
             <div class="about">
-                    <h1>OVERVIEW</h1>
+                    <h1 >OVERVIEW</h1>
             <p> Lorem ipsum, dolor sit amet consLorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, maiores quis, voluptates recusandae alias blanditiis velit consectetur expedita omnis laudantium dolorem? Ducimus deleniti, excepturi rerum voluptatem dolore corporis officiis fuga.ectetur adipisicing elit. Tempora, maiores quis, voluptates recusandae alias blanditiis velit consectetur expedita omnis laudantium dolorem? Ducimus deleniti, excepturi rerum voluptatem dolore corporis officiis fuga.
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, maiores quis, voluptates recusandae alias blanditiis velit consectetur expedita omnis laudantium dolorem? Ducimus deleniti, excepturi rerum voluptatem dolore corporis officiis fuga.
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, maiores quis, voluptates recusandae alias blanditiis velit consectetur expedita omnis laudantium dolorem? Ducimus deleniti, excepturi rerum voluptatem dolore corporis officiis fuga.
@@ -101,7 +102,7 @@
       </div>
       
         
-      <div class="box">
+      <div class="box" data-scrolly-top="blurInBottom" data-scrolly-down="fadeInRight">
         <div class="container">
           <div class="row two">
             <div class="col-3">
@@ -142,8 +143,8 @@
 
       <!-- New section -->
 
-      <div class="container letter1">
-        <h1>MOST AFFORDABLE E-COMMERCE MANAGER</h1>
+      <div class="container letter1" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
+        <h1 class="cssanimation leRainDrop sequence">MOST AFFORDABLE E-COMMERCE MANAGER</h1>
         <p>Marketplace Registration, Photoshoot, Brand Promotional Activities, Brand Positioning over the marketplaces, Business Strategy</p>
         <h4>we belive in</h4>
 
@@ -157,7 +158,7 @@
       <!-- photos section -->
 
       
-      <div class="card-deck">
+      <div class="card-deck" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
         <div class="card">
           <img src="portfolio-01.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -188,7 +189,7 @@
       <!-- footer-1 -->
 
 
-    <div class="box1">
+    <div class="box1" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
       <div class="container">
       <div class="row">
         <div class="col-3">
@@ -230,7 +231,7 @@
     <!-- footer 2 -->
     
 
-    <div class="box2">
+    <div class="box2" data-scrolly-top="blurInBottom" data-scrolly-down="blurInTop">
       <div class="container">
         <div class="row">
           <div class="col-6">
@@ -256,6 +257,14 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script type="text/javascript" src="scrolly.min.js"></script>
+    <script>
+      window.onload = function() {
+         scrolly();
+      }; 
+   </script>
+   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
