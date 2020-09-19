@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+.topper{
+    background-color: black;
+    height: 6.2rem;
+}
+
+.fixed {
+    /* The image used */
+    background-image: url("../images/service4.jpg");
+    filter: brightness(80%);
+    /* Set a specific height */
+    min-height: 480px; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.fixed h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+    padding-top: 12%;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px rgba(90, 89, 89, 0.884);
+    filter: brightness(90%);
+}
+.fixed p{
+    font-size: 24px;
+    font-weight: 00;
+    font-family: "Roboto", Sans-serif;
+    padding-top: 1%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px rgba(48, 48, 48, 0.884);
+}
+.fixed span{
+    font-size: 75px;
+    font-weight: 650;
+    font-family: "Roboto", Sans-serif;
+    color:#66fcf1;
+}
+
+.best{
+    padding-top: 0rem;
+    text-align: center;
+}
+.best h1{
+    font-size: 38px;
+    color: #66fcf1;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    padding-bottom: 43px;
+    text-shadow: 0.3px 0.3px rgba(51, 51, 51, 0.692);
+
+}
+.best_photos img{
+    margin-left: 0px;
+    margin-bottom: 4rem;
+}
+
+.jumbotron{
+    padding-bottom: 0.8rem;
+  }
+  .jumbotron .jumbo_head{
+    padding-bottom: 0rem;
+  }
+  .jumbotron .jumbo_head .display-5{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+  }
+  .jumbotron p{
+    font-size: 18px;
+    font-family: "Roboto", Sans-serif;
+  }
+  .jumbotron .fas{
+      color: #66fcf1;
+      font-size: 24px;
+  }
+
+
+.icons .fas{
+    size: 7rem;
+}
+.icons h1{
+    font-size: 20px;
+    color: #66fcf1;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0.3px 0.3px rgba(85, 85, 85, 0.692);
+}
+.icons p{
+    color: rgba(0, 0, 0, 0.555);
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+}
+.faq h1{
+    font-size: 25px;
+    color: #66fcf1;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3.7rem;
+    padding-bottom: 22px;
+}
+.questions h1{
+    font-size: 18px;
+    color:#66fcf1;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+.questions p{
+    text-align: left;
+}
